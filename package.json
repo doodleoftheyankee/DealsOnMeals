@@ -1,0 +1,21 @@
+{
+  "name": "auto-finance-optimizer",
+  "version": "0.1.0",
+  "description": "Advanced Auto Finance Deal Structuring System",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "electron": "^19.0.0",
+    "electron-builder": "^23.0.3"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "sqlite3": "^5.0.8"
+  }
+}
